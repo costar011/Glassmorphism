@@ -13,33 +13,35 @@ switch(month) {
     case 2:mon.innerHTML = "FEB" + d.getFullYear();
     break;
 
-    case 3:mon.innerHTML = "" + d.getFullYear();
+    case 3:mon.innerHTML = "MAR" + d.getFullYear();
     break;
 
-    case 4:mon.innerHTML = "" + d.getFullYear();
+    case 4:mon.innerHTML = "APR" + d.getFullYear();
     break;
 
-    case 5:mon.innerHTML = "" + d.getFullYear();
+    case 5:mon.innerHTML = "MAY" + d.getFullYear();
     break;
 
-    case 6:mon.innerHTML = "" + d.getFullYear();
+    case 6:mon.innerHTML = "JUN" + d.getFullYear();
     break;
 
-    case 7:mon.innerHTML = "" + d.getFullYear();
+    case 7:mon.innerHTML = "JUL" + d.getFullYear();
     break;
 
-    case 8:mon.innerHTML = "" + d.getFullYear();
+    case 8:mon.innerHTML = "AUG" + d.getFullYear();
     break;
 
-    case 9:mon.innerHTML = "" + d.getFullYear();
+    case 9:mon.innerHTML = "SEP" + d.getFullYear();
     break;
 
-    case 10:mon.innerHTML = "" + d.getFullYear();
+    case 10:mon.innerHTML = "OCT" + d.getFullYear();
     break;
 
-    case 11:mon.innerHTML = "" + d.getFullYear();
+    case 11:mon.innerHTML = "NOV" + d.getFullYear();
     break;
 
-    case 12:mon.innerHTML = "" + d.getFullYear();
+    case 12:mon.innerHTML = "DEC" + d.getFullYear();
     break;
 }
+
+var interval = setInterval(disp,500);
