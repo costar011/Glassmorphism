@@ -45,3 +45,9 @@ switch(month) {
 }
 
 var interval = setInterval(disp,500);
+
+function disp() {
+    var date = new Date();
+    var t = date.toLocaleDateString();
+    document.getElementById("time").innerHTML = t;
+}
