@@ -43,3 +43,10 @@ switch(month) {
     case 12:mon.innerHTML = "DEC" + d.getFullYear();
     break;
 }
+
+var interval = setInterval(disp, 500);
+
+function disp() {
+    var date = new Date();
+    var t = date.toLocaleDateString();
+}
